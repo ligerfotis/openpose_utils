@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <name> keypoint_3d_matching </name>
+  <version>1.0.0</version>
+  <description>The keypoint_3d_matching package</description>
+
+  <maintainer email="yorgosk@email.com">yorgosk</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/yorgosk/openpose_ros</url>
+
+  <author email="yorgosk@email.com">yorgosk</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>openpose_ros_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>keypoint_3d_matching_msgs</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>message_filters</run_depend>
+  <run_depend>openpose_ros_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>keypoint_3d_matching_msgs</run_depend>
+  
+</package>
